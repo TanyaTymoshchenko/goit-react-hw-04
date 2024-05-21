@@ -1,0 +1,62 @@
+.header {
+    width: 100%;
+    height: 90px;
+    background: radial-gradient(circle, rgb(5, 81, 85), rgb(111, 73, 214));
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.search {
+    height: 100px;
+    padding: 40px;
+    border: solid 3px black;
+    margin-right: 40px;
+    border-radius: 15px;
+    
+}
+
+.input {
+    padding: 1rem;
+    border-radius:solid 3px rgb(5, 111, 250);
+    outline: none;
+    border: rgb(13, 13, 13);
+    background-color:rgb(172, 198, 225);
+}
+
+.input:focus {
+    border: none;
+    background-color: rgb(117, 115, 212);
+}
+
+.input::-webkit-input-placeholder {
+    color: rgb(105, 105, 4);
+    transition: color 250ms linear;
+}
+
+.input:focus::-webkit-input-placeholder {
+    color: rgb(139, 223, 136);
+}
+
+.button {
+    border: none;
+    padding: 1rem;
+    margin-left: 20px;
+    border-radius: 9px;
+    background-color: rgb(172, 198, 225);
+    border: 1px solid rgb(12, 12, 12);
+    cursor: pointer;
+    color: rgb(26, 27, 26);
+}
+
+.button:hover,
+.button:focus {
+    border: none;
+    background-color: rgba(220, 237, 230, 0.467);
+    transition: background-color 250ms linear, border 250ms linear;
+    color: rgb(172, 198, 225);
+}
+
+.toast {
+    color: white;
+}
